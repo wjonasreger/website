@@ -1,7 +1,7 @@
 ---
 title:  "Epidemic, Endemic, and Eradication Simulations by Primer"
 header:
-  teaser: /assets/images/misc/jekyll.png
+  teaser: /assets/images/unsplash/vengadesh-sago-QR1O0HRaax4-unsplash.jpg
 categories:
   - Primer
 tags:

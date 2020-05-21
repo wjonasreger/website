@@ -1,0 +1,68 @@
+I"g<ul class="toc__menu">
+  <li><a href="#new-members">NEW MEMBERS</a></li>
+  <li><a href="#basics-of-server">Basics of Server</a></li>
+  <li><a href="#basics-of-commands">Basics of Commands</a></li>
+  <li><a href="#structure-of-commands">Structure of Commands</a></li>
+  <li><a href="#basics-of-markdown">Basics of Markdown</a></li>
+  <li><a href="#potential-future-updates">Potential Future Updates</a></li>
+  <li><a href="#command-documentation">Command Documentation:</a>
+    <ul>
+      <li><a href="#core-commands">Core Commands</a>
+        <ul>
+          <li><a href="#help-sos">Help S.O.S.</a></li>
+          <li><a href="#info-kiosk">Info Kiosk</a></li>
+          <li><a href="#change-my-name">Change My Name</a></li>
+        </ul>
+      </li>
+      <li><a href="#fun-commands">Fun Commands</a>
+        <ul>
+          <li><a href="#the-magic-8ball">The Magic 8ball</a></li>
+          <li><a href="#random-kitty">Random Kitty</a></li>
+          <li><a href="#terrible-dad-jokes">Terrible Dad Jokes</a></li>
+          <li><a href="#random-doggo">Random Doggo</a></li>
+          <li><a href="#gif-search">Gif Search</a></li>
+        </ul>
+      </li>
+      <li><a href="#interactive-commands">Interactive Commands</a>
+        <ul>
+          <li><a href="#cuddle">Cuddle?</a></li>
+          <li><a href="#hug">Hug?</a></li>
+        </ul>
+      </li>
+      <li><a href="#utility-commands">Utility Commands</a>
+        <ul>
+          <li><a href="#fancy-texting">Fancy Texting</a></li>
+          <li><a href="#start-a-vote">Start a Vote</a></li>
+          <li><a href="#roll-a-die">Roll a Die</a></li>
+          <li><a href="#set-a-timer">Set a Timer</a></li>
+          <li><a href="#read-a-verse">Read a Verse</a></li>
+        </ul>
+      </li>
+      <li><a href="#role--permission-commands">Role &amp; Permission Commands</a>
+        <ul>
+          <li><a href="#join-a-group">Join a Group</a></li>
+          <li><a href="#leave-a-group">Leave a Group</a></li>
+          <li><a href="#what-are-my-superpowers">What are My Superpowers?</a></li>
+          <li><a href="#what-is-my-rank">What is My Rank?</a></li>
+        </ul>
+      </li>
+      <li><a href="#moderation-commands">Moderation Commands</a>
+        <ul>
+          <li><a href="#ban-that-troll">Ban that Troll</a></li>
+          <li><a href="#kick-that-solicitor">Kick that Solicitor</a></li>
+          <li><a href="#mute-that-spammer">Mute that Spammer</a></li>
+          <li><a href="#unmute-your-friend">Unmute Your Friend</a></li>
+          <li><a href="#verify-noodles">Verify Noodles</a></li>
+        </ul>
+      </li>
+      <li><a href="#developer-commands">Developer Commands</a>
+        <ul>
+          <li><a href="#developer-playground">Developer Playground</a></li>
+          <li><a href="#ping-or-beep">Ping or Beep?</a></li>
+          <li><a href="#refresh-my-memory">Refresh My Memory</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET
