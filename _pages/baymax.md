@@ -35,6 +35,7 @@ If you are new to the `Urbana YSA` server and need to be _verified_, then start 
 # Basics of Server
 
 This server uses three classes of roles - `ping`, `branch`, and `moderation`. In order to have access to much of the server you must be `verified` first. Then you'll be able to join/leave any `ping` roles as you wish. These roles are designated for pinging and have associated accesses to various channels (i.e. users with the `@gaming` role can access the `#gaming` channel). Usage of these roles are voluntary and not restricted for anyone who's been verified. `branch` roles are designated for members in the local area of the server and maintains a similar structure to that in the actual branch. `moderation` consists of moderators, admins, and developers that manage the server.
+{: style="text-align: justify;"}
 
 # Basics of Commands
 
@@ -62,7 +63,6 @@ code block
 code block<br>
 \`\`\`
  - Embed link: `!embed [text goes here](https://someurl) need 10 words minimum for embed command.`
-{: style="text-align: justify;"}
 
 # Potential Future Updates
 
@@ -73,6 +73,6 @@ code block<br>
  - `pvalue` command for statistical uses.
  - `tempmute` command for temporary muting or soft banning.
 
-# Command Documentation:
+# Command Documentation
 
 {% include baymax_cmds.html %}
