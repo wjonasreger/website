@@ -1,0 +1,29 @@
+{% for cat in site.data.commands.category %}
+## {{cat.name}}
+
+{% for cmd in cat.cmds %}
+### {{ cmd.title }}
+
+<div class="notice--primary" markdown="1">
+
+> <b>Name:</b> {{ cmd.name }}<br>
+> <b>Aliases:</b> {{ cmd.aliases }}<br>
+> <b>Description:</b> {{ cmd.desc }}<br>
+> <b>Usage:</b> {{ cmd.usage }}<br>
+> <b>Server use only:</b> {{ cmd.server }}<br>
+> <b>Cooldown:</b> {{ cmd.cool }}<br>
+> <b>Level:</b> {{ cmd.level }}<br>
+> <b>Duration:</b> {{ cmd.dura }}
+
+Example:
+```
+{% for item in cmd.ex %}
+{{ item.item }}
+{% endfor %}
+```
+
+</div>
+
+{% endfor %}
+
+{% endfor %}
