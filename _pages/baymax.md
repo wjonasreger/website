@@ -13,6 +13,9 @@ header:
   og_image: /assets/images/ayu12.png
   overlay_filter: rgba(19, 41, 75, 0.5) # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Paweł Czerwiński on Unsplash**](https://unsplash.com/photos/2JsSnODck0Y)"
+  actions:
+    - label: "Start Here"
+      url: "https://wjonasreger.github.io/website/baymax/#new-members"
 ---
 
 <!-- ![image-left](https://i.imgur.com/Urqzfrx.png){: .align-left} -->
