@@ -2,10 +2,12 @@
 main:
   # - title: "Home"
   #   url: index.html
-  - title: "Baymax"
-    url: /baymax/
+  # - title: "Baymax"
+  #   url: /baymax/
   - title: "Posts"
     url: /year-archive/
+  - title: "P-Value Calculator"
+    url: /pnorm/
   # - title: "Research"
   #   url: /research/
   - title: "About Me"

@@ -1,0 +1,84 @@
+I"’	<!-- ![image-left](https://i.imgur.com/Urqzfrx.png){: .align-left} -->
+
+<!-- <figure style="width: 200px; margin: 0; margin-right: 20px;" class="align-left">
+  <img src="https://i.imgur.com/Urqzfrx.png" alt="">
+  <figcaption style="color: grey;">Developed @ Illinois</figcaption>
+</figure> -->
+
+<script src="/website/assets/js/pvalue/canvas.js"></script>
+
+<script src="/website/assets/js/pvalue/statFunctions.js"></script>
+
+<script src="/website/assets/js/pvalue/pf.js"></script>
+
+<link rel="stylesheet" href="/website/assets/js/pvalue/styles.css" />
+
+<!-- <link rel="stylesheet" href="/website/assets/js/pvalue/grid1column.css"> -->
+
+<style>
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+</style>
+
+<div id="wrapper">
+<div class="grid-container">
+<!-- <script src="navigation_menu.js" type="text/JavaScript"></script> -->
+
+<div class="main">
+<ul class="menu">
+  <li><a href="/website/pnorm/">Normal Distribution</a></li>
+  <li><a href="/website/pchisq/"><span class="greek">&chi;</span><sup>2</sup> Distribution</a></li>
+  <li><a href="/website/pt/">t Distribution</a></li>
+  <li class="active">F Distribution</li>
+</ul>
+
+<br />
+
+<h1>P-Value Calculator for F Distribution</h1>
+
+<br />
+
+<form name="input" action="" method="get">
+<p>Degree of freedom 1 (numerator) : <input type="number" id="df1" name="df1" min="1" step="1" /> </p>
+
+<p>Degree of freedom 2 (denominator): <input type="number" id="df2" name="df2" min="1" step="1" /> </p>
+
+<hr />
+
+<p>F-value: <input type="number" id="F" name="F" min="0" step="any" /> 
+&nbsp; &nbsp; 
+<input type="button" name="p value" value="Compute p-value" onclick="PfromF_F(this.form)" /></p>
+
+<p>p-value: <input type="number" id="p-value" name="p_value" step="any" />
+&nbsp; &nbsp;
+<input type="button" name="F value" value="Compute F" onclick="FfromP_F(this.form)" /></p>
+
+<p>p-value type: <br />
+<input onchange="changePtype(this.form,1)" type="radio" id="ptype1" name="ptype1" value="1" checked="checked" />right tail<br />
+<input onchange="changePtype(this.form,2)" type="radio" id="ptype2" name="ptype2" value="2" />left tail</p>
+
+</form>
+
+<hr />
+
+<p id="input"></p>
+<p id="output"></p>
+<p id="Rcommand"></p>
+
+<br /> <br />
+<canvas id="Fcurve" width="535" height="300">
+  CANVAS NOT SUPPORTED IN THIS BROWSER!
+</canvas>
+
+<br /> <br />
+</div>
+</div>
+</div>
+:ET
