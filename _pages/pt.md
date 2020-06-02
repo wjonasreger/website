@@ -89,7 +89,7 @@ name="ptype3" value="3" />middle area</p>
 <p id="Rcommand"></p>
 
 <br /> <br />
-<canvas id="tcurve" width="535" height="300">
+<canvas id="tcurve" width="400" height="225">
   CANVAS NOT SUPPORTED IN THIS BROWSER!
 </canvas>
 

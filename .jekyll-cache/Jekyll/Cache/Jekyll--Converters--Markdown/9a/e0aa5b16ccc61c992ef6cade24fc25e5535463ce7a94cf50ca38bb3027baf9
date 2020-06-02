@@ -1,4 +1,4 @@
-I"
+I"
 <!-- ![image-left](https://i.imgur.com/Urqzfrx.png){: .align-left} -->
 
 <!-- <figure style="width: 200px; margin: 0; margin-right: 20px;" class="align-left">
@@ -12,7 +12,7 @@
 
 <script src="/website/assets/js/pvalue/pt.js"></script>
 
-<link rel="stylesheet" href="/website/assets/js/pvalue/styles.css" />
+<link rel="stylesheet" href="/website/assets/css/pvalue.css" />
 
 <!-- <link rel="stylesheet" href="/website/assets/js/pvalue/grid1column.css"> -->
 
@@ -49,6 +49,8 @@ input[type=number] {
 <form name="input" action="" method="get">
 <p>Degree of freedom: <input type="number" id="df" name="df" min="1" step="1" /> </p>
 
+<hr />
+
 <p>t-value: <input type="number" id="t" name="t" step="any" /> 
 &nbsp; &nbsp; 
 <input type="button" name="p value" id="pbutton" value="Compute p-value" onclick="Pfromt_t(this.form)" /></p>
@@ -72,7 +74,7 @@ input[type=number] {
 <p id="Rcommand"></p>
 
 <br /> <br />
-<canvas id="tcurve" width="535" height="300">
+<canvas id="tcurve" width="400" height="300">
   CANVAS NOT SUPPORTED IN THIS BROWSER!
 </canvas>
 

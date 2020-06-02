@@ -1,4 +1,4 @@
-I"C	<!-- ![image-left](https://i.imgur.com/Urqzfrx.png){: .align-left} -->
+I"Œ	<!-- ![image-left](https://i.imgur.com/Urqzfrx.png){: .align-left} -->
 
 <!-- <figure style="width: 200px; margin: 0; margin-right: 20px;" class="align-left">
   <img src="https://i.imgur.com/Urqzfrx.png" alt="">
@@ -9,9 +9,9 @@
 
 <script src="/website/assets/js/pvalue/statFunctions.js"></script>
 
-<script src="/website/assets/js/pvalue/pchisq.js"></script>
+<script src="/website/assets/js/pvalue/pf.js"></script>
 
-<link rel="stylesheet" href="/website/assets/js/pvalue/styles.css" />
+<link rel="stylesheet" href="/website/assets/css/pvalue.css" />
 
 <!-- <link rel="stylesheet" href="/website/assets/js/pvalue/grid1column.css"> -->
 
@@ -30,32 +30,35 @@ input[type=number] {
 <div id="wrapper">
 <div class="grid-container">
 <!-- <script src="navigation_menu.js" type="text/JavaScript"></script> -->
-    
-<div class="main">
 
+<div class="main">
 <ul class="menu">
   <li><a href="/website/pnorm/">Normal Distribution</a></li>
-  <li class="active"><span class="greek">&chi;</span><sup>2</sup> Distribution</li>
+  <li><a href="/website/pchisq/"><span class="greek">&chi;</span><sup>2</sup> Distribution</a></li>
   <li><a href="/website/pt/">t Distribution</a></li>
-  <li><a href="/website/pf/">F Distribution</a></li>
+  <li class="active">F Distribution</li>
 </ul>
 
 <br />
 
-<h1>P-Value Calculator for Chi-Square Distribution</h1>
+<h1>P-Value Calculator for F Distribution</h1>
 
 <br />
 
 <form name="input" action="" method="get">
-<p>Degree of freedom: <input type="number" id="df" name="df" min="1" step="1" /> </p>
+<p>Degree of freedom 1 (numerator) : <input type="number" id="df1" name="df1" min="1" step="1" /> </p>
 
-<p>Chi-square: <input type="number" id="Chisq" name="Chisq" min="0" step="any" /> 
+<p>Degree of freedom 2 (denominator): <input type="number" id="df2" name="df2" min="1" step="1" /> </p>
+
+<hr />
+
+<p>F-value: <input type="number" id="F" name="F" min="0" step="any" /> 
 &nbsp; &nbsp; 
-<input type="button" name="p value" value="Compute p-value" onclick="PfromX2_chisq(this.form)" /></p>
+<input type="button" name="p value" value="Compute p-value" onclick="PfromF_F(this.form)" /></p>
 
 <p>p-value: <input type="number" id="p-value" name="p_value" step="any" />
 &nbsp; &nbsp;
-<input type="button" name="Chi square" value="Compute Chi-square" onclick="X2fromP_chisq(this.form)" /></p>
+<input type="button" name="F value" value="Compute F" onclick="FfromP_F(this.form)" /></p>
 
 <p>p-value type: <br />
 <input onchange="changePtype(this.form,1)" type="radio" id="ptype1" name="ptype1" value="1" checked="checked" />right tail<br />
@@ -70,7 +73,7 @@ input[type=number] {
 <p id="Rcommand"></p>
 
 <br /> <br />
-<canvas id="chisqcurve" width="535" height="300">
+<canvas id="Fcurve" width="400" height="225">
   CANVAS NOT SUPPORTED IN THIS BROWSER!
 </canvas>
 

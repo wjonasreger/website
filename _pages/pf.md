@@ -87,7 +87,7 @@ name="ptype2" value="2" />left tail</p>
 <p id="Rcommand"></p>
 
 <br /> <br />
-<canvas id="Fcurve" width="535" height="300">
+<canvas id="Fcurve" width="400" height="225">
   CANVAS NOT SUPPORTED IN THIS BROWSER!
 </canvas>
 
