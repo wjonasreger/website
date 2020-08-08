@@ -75,7 +75,7 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.3.0)
-    kramdown (2.2.1)
+    kramdown (2.3.0)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -114,7 +114,6 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
     verbal_expressions (0.1.5)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -123,7 +122,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll-algolia (~> 1.0)
   minimal-mistakes-jekyll!
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.1.4
