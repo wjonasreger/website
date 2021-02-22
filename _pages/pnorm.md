@@ -13,10 +13,10 @@ header:
 
 <!-- ![image-left](https://i.imgur.com/Urqzfrx.png){: .align-left} -->
 
-<!-- <figure style="width: 200px; margin: 0; margin-right: 20px;" class="align-left">
+<figure style="width: 200px; margin: 0; margin-right: 20px;" class="align-left">
   <img src="https://i.imgur.com/Urqzfrx.png" alt="">
   <figcaption style="color: grey;">Developed @ Illinois</figcaption>
-</figure> -->
+</figure>
 
 <script src="{{ site.baseurl }}/assets/js/pvalue/canvas.js"></script>
 <script src="{{ site.baseurl }}/assets/js/pvalue/statFunctions.js"></script>
