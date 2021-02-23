@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Experience
 layout: single
 permalink: /about/
 classes: wide
@@ -11,40 +11,38 @@ header:
   caption: "Photo credit: [**Teemu Paananen on Unsplash**](https://unsplash.com/photos/OOE4xAnBhKo)"
 ---
 
-# Introduction
-
-My name is `W. Jonas Reger` and I am a Senior Undergraduate Student studying `Statistics and Mathematics` at the `University of Illinois at Urbana-Champaign` (UIUC). I have also had the pleasure of teaching as a `Course Assistant` in the Department of Statistics since the Spring Semester of 2019. 
-{: style="text-align: justify;"}
-
-I am a `self-taught programmer` starting at the age of 15. When I was 17, I interned for the `American Cancer Society` and led a research project with Dr. Kris Killian in the Department of Materials Science and Engineering at UIUC. After that I interned with Andy Loftus, developing applications in Python, at the `National Center for Supercomputing Applications`. After high school, I complete my `A.S. Degree in Computer Science` at Parkland College. Following that, I transferred into the Statistics program at UIUC to finish my undergraduate degree. I will be graduating with my `B.S. in Statistics, with a minor in Mathematics`. I have been accepted into the `Analytics Statistics-M.S.` program here at UIUC as well. My research interests include `machine learning`, `signal processing`, `data & AI ethics`, and `statistics education`.
-
 # Work Experience
 
-Course Assistant / Grading Assistant
+## Course Assistant / Grading Assistant
 
 * **Stat 100: Introduction to Statistics** <a href="https://karleflanagan.github.io/stat100S21/" target = "_blank">[Spring 2021]</a>, <a href="https://karleflanagan.github.io/stat100F20/" target="_blank">[Fall 2020]</a>, <a href="https://nkha149.github.io/stat100-su2020/" target="_blank">[Summer 2020]</a>, <a href="https://karleflanagan.github.io/stat100S20/" target="_blank">[Spring 2020]</a>, [Fall 2019], [Spring 2019]
 
   * **Course Description:** First course in probability and statistics at a precalculus level; emphasizes basic concepts, including descriptive statistics, elementary probability, estimation, and hypothesis testing in both nonparametric and normal models.
+  {: style="text-align: justify;"}
   * _More details forthcoming..._
 
-* `Stat 400: Statistics & Probability I` [Spring 2020], [Spring 2019]
+* **Stat 400: Statistics & Probability I** [Spring 2020], [Spring 2019]
 
   * **Course Description:** Introduction to mathematical statistics that develops probability as needed; includes the calculus of probability, random variables, expectation, distribution functions, central limit theorem, point estimation, confidence intervals, and hypothesis testing. Offers a basic one-term introduction to statistics and also prepares students for STAT 410.
+  {: style="text-align: justify;"}
   * _More details forthcoming..._
 
-* Stat 410: Statistics & Probability II [Spring 2020]
+* **Stat 410: Statistics & Probability II** [Spring 2020]
 
   * **Course Description:** Continuation of STAT 400. Includes moment-generating functions, transformations of random variables, normal sampling theory, sufficiency, best estimators, maximum likelihood estimators, confidence intervals, most powerful tests, unbiased tests, and chi-square tests.
+  {: style="text-align: justify;"}
   * _More details forthcoming..._
 
-* Stat 420: Methods of Applied Statistics / Statistical Modeling in R [Fall 2019], [Summer 2019]
+* **Stat 420: Methods of Applied Statistics** [Fall 2019], [Summer 2019]
 
   * **Course Description:** Systematic, calculus-based coverage of the more widely used methods of applied statistics, including simple and multiple regression, correlation, analysis of variance and covariance, multiple comparisons, goodness of fit tests, contingency tables, nonparametric procedures, and power of tests; emphasizes when and why various tests are appropriate and how they are used.
+  {: style="text-align: justify;"}
   * _More details forthcoming..._
 
-* Stat 432: Basics of Statistical Learning <a href="https://fall-2020.stat432.org/" target="_blank">[Fall 2020]</a>
+* **Stat 432: Basics of Statistical Learning** <a href="https://fall-2020.stat432.org/" target="_blank">[Fall 2020]</a>
 
   * **Course Description:** Topics in supervised and unsupervised learning are covered, including logistic regression, support vector machines, classification trees and nonparametric regression. Model building and feature selection are discussed for these techniques, with a focus on regularization methods, such as lasso and ridge regression, as well as methods for model selection and assessment using cross validation. Cluster analysis and principal components analysis are introduced as examples of unsupervised learning.
+  {: style="text-align: justify;"}
   * _More details forthcoming..._
 
 _Additional experience can be found on my LinkedIn page._
@@ -67,7 +65,7 @@ _Additional experience can be found on my LinkedIn page._
 
 You may contact me via <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a>, or via email.
 
-* `w reger 2 at illinois dot edu`
+* w reger 2 at illinois dot edu
 
 
 {: style="text-align: justify;"}
