@@ -11,6 +11,20 @@ header:
   caption: "Photo credit: [**Teemu Paananen on Unsplash**](https://unsplash.com/photos/OOE4xAnBhKo)"
 ---
 
+# Education
+
+* **University of Illinois at Urbana-Champaign**
+  * M.S. Analytics Statistics
+  * 2021 - 2023
+
+* **University of Illinois at Urbana-Champaign**
+  * B.S. Statistics, Minor in Mathematics
+  * 2018 - 2021
+
+* **Parkland College**
+  * A.S. Computer Science
+  * 2015 - 2018
+
 # Work Experience
 
 ## Course Assistant / Grading Assistant
@@ -47,27 +61,6 @@ header:
 
 _Additional experience can be found on my LinkedIn page._
 
-# Education
-
-* University of Illinois at Urbana-Champaign
-  * M.S. Analytics Statistics
-  * 2021 - 2023
-
-* University of Illinois at Urbana-Champaign
-  * B.S. Statistics, Minor in Mathematics
-  * 2018 - 2021
-
-* Parkland College
-  * A.S. Computer Science
-  * 2015 - 2018
-
 # Contact Information
 
-You may contact me via <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a>, or via email.
-
-* w reger 2 at illinois dot edu
-
-
-{: style="text-align: justify;"}
-
-
+You may contact me via <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a>, or via <a href="mailto:wreger2@illinois.edu">email</a>.

@@ -1,6 +1,0 @@
-I"‰<p>Laplace distribution.</p>
-
-<p>Probability Density Function: $f(x \mid \mu, \sigma) = \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), \quad x, \mu \in \mathbb{R},\ \sigma \in \mathbb{R}^+$</p>
-
-<p>Cumulative Density Function: $F(x \mid \mu, \sigma) = \frac12 + \frac12 \text{sign}(x-\mu)\left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right)$</p>
-:ET
