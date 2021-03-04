@@ -1,0 +1,20 @@
+I"]<p>The Laplace distribution has location $\mu \in \mathbb{R}$ and scale $\sigma \in \mathbb{R}^+$ with:</p>
+
+<p>Probability Density Function:</p>
+
+\[f(x \mid \mu, \sigma) = \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), \quad x \in \mathbb{R}\]
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$f(x \mid \mu, \sigma) = \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), \quad x \in \mathbb{R}$$
+</code></pre></div></div>
+
+<p>Cumulative Density Function:</p>
+
+\[F(x \mid \mu, \sigma) = \frac12 + \frac12 \text{sign}(x-\mu)\left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), \quad x \in \mathbb{R}\]
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$F(x \mid \mu, \sigma) = \frac12 + \frac12 \text{sign}(x-\mu)\left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), \quad x \in \mathbb{R}$$
+</code></pre></div></div>
+
+<p>Inverse CDF:</p>
+
+\[F^{-1}(u \mid \mu, \sigma) = \mu - \sigma \cdot \text{sign}(u - 0.5)\ln(1-2 \mid u - 0.5 \mid), \quad u \in [0,1]\]
+:ET

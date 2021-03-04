@@ -1,0 +1,97 @@
+I"Ê<p><strong>Inverse CDF Sampling of the Laplace Distribution</strong></p>
+
+<hr />
+
+<p>The Laplace distribution has location $\mu \in \mathbb{R}$ and scale $\sigma \in \mathbb{R}^+$ with:</p>
+
+<p>Probability Density Function:</p>
+
+\[f(x \mid \mu, \sigma) = 
+    \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), 
+    \quad x \in \mathbb{R}\]
+
+<p>Cumulative Density Function:</p>
+
+\[F(x \mid \mu, \sigma) = 
+    \frac12 + \frac12 \text{sign}(x-\mu)
+    \left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), 
+    \quad x \in \mathbb{R}\]
+
+<p>Inverse CDF:</p>
+
+\[F^{-1}(u \mid \mu, \sigma) = 
+    \mu - \sigma \cdot \text{sign}(u - 0.5)\ln(1-2 \mid u - 0.5 \mid), 
+    \quad u \in [0,1]\]
+
+<p>LaTex Code:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PDF:
+$$f(x \mid \mu, \sigma) = 
+    \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), 
+    \quad x \in \mathbb{R}$$
+
+CDF:
+$$F(x \mid \mu, \sigma) = 
+    \frac12 + \frac12 \text{sign}(x-\mu)
+    \left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), 
+    \quad x \in \mathbb{R}$$
+
+ICDF:
+$$F^{-1}(u \mid \mu, \sigma) = 
+    \mu - \sigma \cdot \text{sign}(u - 0.5)\ln(1-2 \mid u - 0.5 \mid), 
+    \quad u \in [0,1]$$
+</code></pre></div></div>
+
+<p>R Code:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># PDF
+dlaplace = function(x, mu, sigma) {
+  density = (1/(2*sigma))*exp(-abs(x-mu)/sigma)
+  return(density)
+}
+
+# CDF
+qlaplace = function(u, mu, sigma) {
+  FuInv = mu - sigma * sign(u - 0.5) * log(1-2*abs(u - 0.5))
+  return(FuInv)
+}
+
+# ICDF sampling
+set.seed(1)
+U = runif(1000)
+mu = 1; sigma = 2
+X = qlaplace(U, mu, sigma)
+
+# Empirical vs. Theoretical density
+xx = seq(-15, 15, 0.1)
+fx = dlaplace(xx, mu, sigma)
+hist(X, 
+     main = "Empirical vs. Theoretical density", 
+     ylim = c(0, max(fx)), 
+     col = rgb(232, 74, 39, max = 255, alpha = 200),
+     freq = F)
+lines(xx, fx, type = 'l', lwd = 2, col = '#13294b')
+</code></pre></div></div>
+
+<figure class="">
+  <img src="/website/assets/images/mathstat-posts/laplace_EvT_densityplot.png" alt="This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution." />
+  
+    <figcaption>
+      This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution.
+
+    </figcaption>
+  
+</figure>
+
+<p>Include Figure Code:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`&lt;figure class=""&gt;
+  &lt;img src="/website/assets/images/mathstat-posts/laplace_EvT_densityplot.png"
+       alt="This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution."&gt;
+  
+    &lt;figcaption&gt;
+      This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution.
+
+    &lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+`
+</code></pre></div></div>
+:ET

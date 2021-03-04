@@ -1,0 +1,8 @@
+I"7<p>Laplace distribution.</p>
+
+<p>Probability Density Function: $f(x \mid \mu, \sigma) = \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), \quad x, \mu \in \mathbb{R},\ \sigma \in \mathbb{R}^+$</p>
+
+<p>Cumulative Density Function: $F(x \mid \mu, \sigma) = \frac12 + \frac12 \text{sign}(x-\mu)\left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), \quad x, \mu \in \mathbb{R},\ \sigma \in \mathbb{R}^+$</p>
+
+<p>Inverse CDF: $F^{-1}(u \mid \mu, \sigma) = \mu - \sigma \cdot \text{sign}(u - 0.5)\ln(1-2 \mid u - 0.5 \mid )$</p>
+:ET

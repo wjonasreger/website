@@ -1,3 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/website/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/website/" rel="alternate" type="text/html" /><updated>2021-02-22T18:44:19-06:00</updated><id>http://localhost:4000/website/feed.xml</id><title type="html">WJR</title><subtitle>W. Jonas Reger's website for professional, academic, and developer interests.</subtitle><author><name>W. Jonas Reger</name></author><entry><title type="html">Let’s Get Motivating!</title><link href="http://localhost:4000/website/fun/Motivation/" rel="alternate" type="text/html" title="Let's Get Motivating!" /><published>2021-02-22T00:00:00-06:00</published><updated>2021-02-22T00:00:00-06:00</updated><id>http://localhost:4000/website/fun/Motivation</id><content type="html" xml:base="http://localhost:4000/website/fun/Motivation/">&lt;p&gt;Motivation for later.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/website/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/website/" rel="alternate" type="text/html" /><updated>2021-03-03T19:06:36-06:00</updated><id>http://localhost:4000/website/feed.xml</id><title type="html">WJR</title><subtitle>W. Jonas Reger's website for professional, academic, and developer interests.</subtitle><author><name>W. Jonas Reger</name></author><entry><title type="html">LaTex Test (Laplace Distribution)</title><link href="http://localhost:4000/website/latex/LaTex-Test/" rel="alternate" type="text/html" title="LaTex Test (Laplace Distribution)" /><published>2021-03-03T00:00:00-06:00</published><updated>2021-03-03T00:00:00-06:00</updated><id>http://localhost:4000/website/latex/LaTex-Test</id><content type="html" xml:base="http://localhost:4000/website/latex/LaTex-Test/">&lt;p&gt;&lt;strong&gt;Inverse CDF Sampling of the Laplace Distribution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Laplace distribution has location $\mu \in \mathbb{R}$ and scale $\sigma \in \mathbb{R}^+$ with:&lt;/p&gt;
+
+&lt;p&gt;Probability Density Function:&lt;/p&gt;
+
+\[f(x \mid \mu, \sigma) = 
+    \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), 
+    \quad x \in \mathbb{R}\]
+
+&lt;p&gt;Cumulative Density Function:&lt;/p&gt;
+
+\[F(x \mid \mu, \sigma) = 
+    \frac12 + \frac12 \text{sign}(x-\mu)
+    \left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), 
+    \quad x \in \mathbb{R}\]
+
+&lt;p&gt;Inverse CDF:&lt;/p&gt;
+
+\[F^{-1}(u \mid \mu, \sigma) = 
+    \mu - \sigma \cdot \text{sign}(u - 0.5)\ln(1-2 \mid u - 0.5 \mid), 
+    \quad u \in [0,1]\]
+
+&lt;p&gt;LaTex Code:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;PDF:
+$$f(x \mid \mu, \sigma) = 
+    \frac{1}{2\sigma}\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right), 
+    \quad x \in \mathbb{R}$$
+
+CDF:
+$$F(x \mid \mu, \sigma) = 
+    \frac12 + \frac12 \text{sign}(x-\mu)
+    \left(1-\text{exp}\left(-\frac{\mid x - \mu \mid}{\sigma}\right)\right), 
+    \quad x \in \mathbb{R}$$
+
+ICDF:
+$$F^{-1}(u \mid \mu, \sigma) = 
+    \mu - \sigma \cdot \text{sign}(u - 0.5)\ln(1-2 \mid u - 0.5 \mid), 
+    \quad u \in [0,1]$$
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;R Code:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# PDF
+dlaplace = function(x, mu, sigma) {
+  density = (1/(2*sigma))*exp(-abs(x-mu)/sigma)
+  return(density)
+}
+
+# CDF
+qlaplace = function(u, mu, sigma) {
+  FuInv = mu - sigma * sign(u - 0.5) * log(1-2*abs(u - 0.5))
+  return(FuInv)
+}
+
+# ICDF sampling
+set.seed(1)
+U = runif(1000)
+mu = 1; sigma = 2
+X = qlaplace(U, mu, sigma)
+
+# Empirical vs. Theoretical density
+xx = seq(-15, 15, 0.1)
+fx = dlaplace(xx, mu, sigma)
+hist(X, 
+     main = &quot;Empirical vs. Theoretical density&quot;, 
+     ylim = c(0, max(fx)), 
+     col = rgb(232, 74, 39, max = 255, alpha = 200),
+     freq = F)
+lines(xx, fx, type = 'l', lwd = 2, col = '#13294b')
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/website/assets/images/mathstat-posts/laplace_EvT_densityplot.png&quot; alt=&quot;This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution.&quot; /&gt;
+  
+    &lt;figcaption&gt;
+      This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution.
+
+    &lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;Liquid Code:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{ %
+  include figure image_path=&quot;/assets/images/mathstat-posts/laplace_EvT_densityplot.png&quot;
+  alt=&quot;This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution.&quot;
+  caption=&quot;This is a plot comparing the empirical (histogram) and theoretical (curve) densities of the Laplace distribution.&quot;
+% }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>W. Jonas Reger</name></author><category term="latex" /><category term="math" /><category term="stat" /><category term="jekyll" /><category term="test" /><summary type="html">Inverse CDF Sampling of the Laplace Distribution</summary></entry><entry><title type="html">Let’s Get Motivating!</title><link href="http://localhost:4000/website/fun/Motivation/" rel="alternate" type="text/html" title="Let's Get Motivating!" /><published>2021-02-22T00:00:00-06:00</published><updated>2021-02-22T00:00:00-06:00</updated><id>http://localhost:4000/website/fun/Motivation</id><content type="html" xml:base="http://localhost:4000/website/fun/Motivation/">&lt;p&gt;Motivation for later.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-TDyceWAhBI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>W. Jonas Reger</name></author><category term="tofu" /><category term="fun" /><summary type="html">Motivation for later.</summary></entry><entry><title type="html">Epidemic, Endemic, and Eradication Simulations by Primer</title><link href="http://localhost:4000/website/primer/epidemic-endemic-eradication-primer/" rel="alternate" type="text/html" title="Epidemic, Endemic, and Eradication Simulations by Primer" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>http://localhost:4000/website/primer/epidemic-endemic-eradication-primer</id><content type="html" xml:base="http://localhost:4000/website/primer/epidemic-endemic-eradication-primer/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7OLpKqTriio&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>W. Jonas Reger</name></author><category term="covid19" /><category term="math" /><summary type="html"></summary></entry></feed>
