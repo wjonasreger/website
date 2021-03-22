@@ -16,4 +16,10 @@ var store = [{
         "tags": ["latex","math","stat","jekyll","test"],
         "url": "http://localhost:4000/website/latex/LaTex-Test/",
         "teaser": "http://localhost:4000/website/assets/images/mathstat-posts/laplace_EvT_densityplot.png"
+      },{
+        "title": "Regression & Residual Visualization App",
+        "excerpt":"Visualizing Residuals About the Regression Line     Students in Foundational Statistics courses often find the concept and behaviours of prediction errors (residuals) to be confusing and intimidating (Math!). I created this Interactive Shiny App in order to help students visualize the balancing of prediction errors about the regression line through the use of a ranked color gradient (i.e. the color changes for each data value of increasing prediction error). Other interesting features to explore in this app are the relationships that exist between the regression line, prediction errors, correlation, sample size, and outliers (for y and/or x).  ","categories": [],
+        "tags": ["stat","visualization","shinyapp"],
+        "url": "http://localhost:4000/website/Regression-&-Residual-Visualization/",
+        "teaser": "http://localhost:4000/website/assets/images/mathstat-posts/RRVisApp.png"
       },]
