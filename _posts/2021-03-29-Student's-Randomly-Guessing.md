@@ -28,6 +28,8 @@ Here are some plots and a statistics table created from a monte carlo estimation
 
 This table is drawn from the simulation of **100** students answering questions with **3** choices. As we can see here like in the plots, the chance of a student randomly guessing and getting a high score drops as the number of questions increases. This happens because of the Central Limit Theorem, which states that if there's a population (i.e. score of test questions) with a mean and standard deviation, then with increasingly large sample sizes (i.e. number of test questions), the sample means will approximate to the normal distribution. We see the effect of the CLT in this simulation through the decrease of the SD as the number of test questions increase.
 
+**Note: These statistics are monte carlo estimates, so we would observe these values on average. For example, if we gave the same test of 4 questions to 10 different classes, we would observe an average maximum (i.e. the average of the maximum scores from each class), which would approximate the maximum value shown in the table (92.96%).**
+
 | Number of Questions | Minimum | 25%   | Median | 75%   | Maximum | Mean  | SD    |
 |---------------------|---------|-------|--------|-------|---------|-------|-------|
 | 4 Questions         | 0.00    | 22.87 | 25.77  | 49.98 | 92.96   | 33.29 | 23.52 |
