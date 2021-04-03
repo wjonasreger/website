@@ -1,0 +1,91 @@
+I"<h1 id="education">Education</h1>
+
+<ul>
+  <li><strong>University of Illinois at Urbana-Champaign</strong>
+    <ul>
+      <li>M.S. Analytics Statistics</li>
+      <li>2021 - 2023</li>
+    </ul>
+  </li>
+  <li><strong>University of Illinois at Urbana-Champaign</strong>
+    <ul>
+      <li>B.S. Statistics, Minor in Mathematics</li>
+      <li>2018 - 2021</li>
+    </ul>
+  </li>
+  <li><strong>Parkland College</strong>
+    <ul>
+      <li>A.S. Computer Science</li>
+      <li>2015 - 2018</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="work-experience">Work Experience</h1>
+
+<h2 id="course-assistant--grading-assistant">Course Assistant / Grading Assistant</h2>
+
+<ul style="text-align: justify;">
+  <li>
+    <p><strong>Stat 100: Introduction to Statistics</strong></p>
+
+    <ul>
+      <li>
+        <p><a href="https://karleflanagan.github.io/stat100S21/" target="_blank">[Spring 2021]</a>, <a href="https://karleflanagan.github.io/stat100F20/" target="_blank">[Fall 2020]</a>, <a href="https://nkha149.github.io/stat100-su2020/" target="_blank">[Summer 2020]</a>, <a href="https://karleflanagan.github.io/stat100S20/" target="_blank">[Spring 2020]</a>, [Fall 2019], [Spring 2019] <span id="dots"></span><span id="more"><br /><b>Course Description:</b> First course in probability and statistics at a precalculus level; emphasizes basic concepts, including descriptive statistics, elementary probability, estimation, and hypothesis testing in both nonparametric and normal models.</span></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div class="experience">
+    <button class="btn" onclick="myFunction()" id="myBtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button>
+  </div>
+
+<ul>
+  <li>
+    <p><strong>Stat 400: Statistics &amp; Probability I</strong> [Spring 2020], [Spring 2019]</p>
+
+    <ul style="text-align: justify;">
+      <li><strong>Course Description:</strong> Introduction to mathematical statistics that develops probability as needed; includes the calculus of probability, random variables, expectation, distribution functions, central limit theorem, point estimation, confidence intervals, and hypothesis testing. Offers a basic one-term introduction to statistics and also prepares students for STAT 410.</li>
+    </ul>
+    <ul>
+      <li><em>More details forthcoming…</em></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Stat 410: Statistics &amp; Probability II</strong> [Spring 2020]</p>
+
+    <ul style="text-align: justify;">
+      <li><strong>Course Description:</strong> Continuation of STAT 400. Includes moment-generating functions, transformations of random variables, normal sampling theory, sufficiency, best estimators, maximum likelihood estimators, confidence intervals, most powerful tests, unbiased tests, and chi-square tests.</li>
+    </ul>
+    <ul>
+      <li><em>More details forthcoming…</em></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Stat 420: Methods of Applied Statistics</strong> [Fall 2019], [Summer 2019]</p>
+
+    <ul style="text-align: justify;">
+      <li><strong>Course Description:</strong> Systematic, calculus-based coverage of the more widely used methods of applied statistics, including simple and multiple regression, correlation, analysis of variance and covariance, multiple comparisons, goodness of fit tests, contingency tables, nonparametric procedures, and power of tests; emphasizes when and why various tests are appropriate and how they are used.</li>
+    </ul>
+    <ul>
+      <li><em>More details forthcoming…</em></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Stat 432: Basics of Statistical Learning</strong> <a href="https://fall-2020.stat432.org/" target="_blank">[Fall 2020]</a></p>
+
+    <ul style="text-align: justify;">
+      <li><strong>Course Description:</strong> Topics in supervised and unsupervised learning are covered, including logistic regression, support vector machines, classification trees and nonparametric regression. Model building and feature selection are discussed for these techniques, with a focus on regularization methods, such as lasso and ridge regression, as well as methods for model selection and assessment using cross validation. Cluster analysis and principal components analysis are introduced as examples of unsupervised learning.</li>
+    </ul>
+    <ul>
+      <li><em>More details forthcoming…</em></li>
+    </ul>
+  </li>
+</ul>
+
+<p><em>Additional experience can be found on my LinkedIn page.</em></p>
+
+<h1 id="contact-information">Contact Information</h1>
+
+<p>You may contact me via <a href="https://www.linkedin.com/in/wjonasreger" target="_blank">LinkedIn</a>, or via <a href="mailto:wreger2@illinois.edu">email</a>.</p>
+:ET

@@ -6,3 +6,34 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Experience Drop down buttons
+.experience {
+    margin-top: -30px;
+}
+
+
+
+.experience svg.svg-inline--fa {
+    color: #f48073;
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+
+.experience button {
+    background-color: #252a34;
+    color: #eaeaea;
+    display: inline-flex;
+    align-items: center;
+    padding:5px;
+    cursor:pointer;
+    outline: none;
+}
+
+// .experience button:hover {
+//     background-color: #f48073;
+//     border-color: #f48073;
+//     color: white;
+//   }
+
+#S100text, #S400text, #S410text, #S420text, #S432text, #AStext, #BStext, #MStext {display: none;}

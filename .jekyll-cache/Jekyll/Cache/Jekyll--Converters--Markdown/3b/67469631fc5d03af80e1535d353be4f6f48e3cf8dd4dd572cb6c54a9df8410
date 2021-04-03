@@ -1,4 +1,4 @@
-I"p<h1 id="education">Education</h1>
+I"C<h1 id="education">Education</h1>
 
 <ul>
   <li><strong>University of Illinois at Urbana-Champaign</strong>
@@ -25,17 +25,27 @@
 
 <h2 id="course-assistant--grading-assistant">Course Assistant / Grading Assistant</h2>
 
-<ul>
+<ul style="text-align: justify;">
   <li>
-    <p><strong>Stat 100: Introduction to Statistics</strong> <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">[Spring 2021]</a>, <a href="https://karleflanagan.github.io/stat100F20/" target="_blank">[Fall 2020]</a>, <a href="https://nkha149.github.io/stat100-su2020/" target="_blank">[Summer 2020]</a>, <a href="https://karleflanagan.github.io/stat100S20/" target="_blank">[Spring 2020]</a>, [Fall 2019], [Spring 2019]</p>
+    <p><strong>Stat 100: Introduction to Statistics</strong></p>
 
-    <ul style="text-align: justify;">
-      <li><strong>Course Description:</strong> First course in probability and statistics at a precalculus level; emphasizes basic concepts, including descriptive statistics, elementary probability, estimation, and hypothesis testing in both nonparametric and normal models.</li>
-    </ul>
     <ul>
-      <li><em>More details forthcoming…</em></li>
+      <li>
+        <p><a href="https://karleflanagan.github.io/stat100S21/" target="_blank">[Spring 2021]</a>, <a href="https://karleflanagan.github.io/stat100F20/" target="_blank">[Fall 2020]</a>, <a href="https://nkha149.github.io/stat100-su2020/" target="_blank">[Summer 2020]</a>, <a href="https://karleflanagan.github.io/stat100S20/" target="_blank">[Spring 2020]</a>, [Fall 2019], [Spring 2019] <span id="dots"></span><span id="more"><br /><b>Course Description:</b> First course in probability and statistics at a precalculus level; emphasizes basic concepts, including descriptive statistics, elementary probability, estimation, and hypothesis testing in both nonparametric and normal models.</span></p>
+      </li>
     </ul>
   </li>
+</ul>
+<ul>
+  <li>
+    <div class="experience">
+ <button class="btn" onclick="myFunction()" id="myBtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button>
+</div>
+  </li>
+</ul>
+<p>&lt;/div&gt;</p>
+
+<ul>
   <li>
     <p><strong>Stat 400: Statistics &amp; Probability I</strong> [Spring 2020], [Spring 2019]</p>
 
