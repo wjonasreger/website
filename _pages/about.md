@@ -31,10 +31,9 @@ header:
       <br>2018–2021
       <span id="BSbr"></span>
       <span id="BStext">
-        <br><b>Relevant Coursework:</b> <span style="font-size:80%;">Statistical Computing, Unsupervised Learning, Basics of Statistical Learning, Professional Statistics, Applied Regression and Design, Methods of Applied Statistics, Statistics & Probability, Statistical Analysis, Linear Algebra, Fundamental Mathematics</span>
+        <br><b>Relevant Coursework:</b> <span style="font-size:80%;">Statistical Computing (R/Rstudio), Unsupervised Learning (Python/Jupyter Lab), Basics of Statistical Learning (R/Rstudio), Professional Statistics, Applied Regression and Design (R/Rstudio), Methods of Applied Statistics (R/Rstudio), Statistics & Probability, Statistical Analysis, Linear Algebra, Fundamental Mathematics</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('BS')" id="BSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 ## Parkland College
@@ -46,7 +45,6 @@ header:
         <br><b>Relevant Coursework:</b> <span style="font-size:80%;">Data Structures (Python), Computer Science (C/C++, Java), Discrete Mathematics, Calculus, Statistics</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('AS')" id="ASbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 # Work Experience
@@ -64,7 +62,7 @@ Discovery Partners Institute, University of Illinois at Chicago
 Department of Statistics, University of Illinois at Urbana-Champaign
 <br>Jan 2019 – Present
 - Supported student learning objectives through personalized and small group assistance in in-person and virtual office hours, and via email for courses of 50 to 1000+ students
-- Assisted instructor with test administration, curriculum development, website development, assignment/project/exam grading (~8500 assignments/projects/exams graded), office hours, coding tasks, and substitute teaching for lectures
+- Assisted instructor with test administration, curriculum development, website development (Jekyll, Jupyter Notebook), grading (~8500 assignments/projects/exams graded), office hours, coding tasks (R/Rstudio, LaTex, Python), and substitute teaching for lectures
 - Conducted a lecture to a class of 150 undergraduate students on random variables and mathematical expectation for STAT 400 on February 4, 2020.
 - Average course sizes: ~285 students per section. ~615 students per course.
 
@@ -78,7 +76,6 @@ Department of Statistics, University of Illinois at Urbana-Champaign
         <br><b>Instructors:</b> <span style="font-size:80%;">Karle Flanagan (S21, F20, Su20, S20, F19, S19), Ha Khanh Nguyen (Su20)</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('S100')" id="S100btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 400: Statistics & Probability I**
@@ -90,7 +87,6 @@ Department of Statistics, University of Illinois at Urbana-Champaign
         <br><b>Instructors:</b> <span style="font-size:80%;">Albert Yu (S20), Shiwei Lan (S19)</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('S400')" id="S400btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 410: Statistics & Probability II**
@@ -102,7 +98,6 @@ Department of Statistics, University of Illinois at Urbana-Champaign
         <br><b>Instructor:</b> <span style="font-size:80%;">Alex Stepanov</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('S410')" id="S410btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 420: Methods of Applied Statistics**
@@ -114,7 +109,6 @@ Department of Statistics, University of Illinois at Urbana-Champaign
         <br><b>Instructors:</b> <span style="font-size:80%;">Alex Stepanov (F19), David Unger (Su19)</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('S420')" id="S420btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 432: Basics of Statistical Learning**
@@ -126,7 +120,6 @@ Department of Statistics, University of Illinois at Urbana-Champaign
         <br><b>Instructor:</b> <span style="font-size:80%;">David Dalpiaz</span>
       </span>
     </p>
-    {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('S432')" id="S432btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 _Additional experience can be found on my LinkedIn page._
