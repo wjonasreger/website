@@ -12,8 +12,6 @@
     margin-top: -30px;
 }
 
-
-
 .experience svg.svg-inline--fa {
     color: #f48073;
     margin-left: 0px;
@@ -37,3 +35,9 @@
 //   }
 
 #S100text, #S400text, #S410text, #S420text, #S432text, #AStext, #BStext, #MStext {display: none;}
+
+@media (max-width: 767px) {
+    .experience {
+        margin-top: -20px;
+    }
+}

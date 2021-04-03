@@ -1,6 +1,6 @@
-I"i"<h2 id="education">Education</h2>
+I"�!<h1 id="education">Education</h1>
 
-<h3 id="university-of-illinois-at-urbana-champaign">University of Illinois at Urbana-Champaign</h3>
+<h2 id="university-of-illinois-at-urbana-champaign">University of Illinois at Urbana-Champaign</h2>
 <ul>
   <li>
     <p style="text-align: justify;">
@@ -11,11 +11,11 @@
     <br /><b>Relevant Coursework:</b> <span style="font-size:80%;"></span>
   </span>
 </p>
-    <div class="experience"><button class="btn" onclick="readMore('MS')" id="MSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
+    <!-- <div class="experience"><button class="btn" onclick="readMore('MS')" id="MSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div> -->
   </li>
 </ul>
 
-<h3 id="university-of-illinois-at-urbana-champaign-1">University of Illinois at Urbana-Champaign</h3>
+<h2 id="university-of-illinois-at-urbana-champaign-1">University of Illinois at Urbana-Champaign</h2>
 <ul>
   <li>
     <p style="text-align: justify;">
@@ -23,14 +23,14 @@
   <br />2018–2021
   <span id="BSbr"></span>
   <span id="BStext">
-    <br /><b>Relevant Coursework:</b> <span style="font-size:80%;"></span>
+    <br /><b>Relevant Coursework:</b> <span style="font-size:80%;">Statistical Computing, Unsupervised Learning, Basics of Statistical Learning, Professional Statistics, Applied Regression and Design, Methods of Applied Statistics, Statistics &amp; Probability, Statistical Analysis, Linear Algebra, Fundamental Mathematics</span>
   </span>
 </p>
     <div class="experience"><button class="btn" onclick="readMore('BS')" id="BSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
   </li>
 </ul>
 
-<h3 id="parkland-college">Parkland College</h3>
+<h2 id="parkland-college">Parkland College</h2>
 <ul>
   <li>
     <p style="text-align: justify;">
@@ -38,54 +38,38 @@
   <br />2015-2018
   <span id="ASbr"></span>
   <span id="AStext">
-    <br /><b>Relevant Coursework:</b> <span style="font-size:80%;"></span>
+    <br /><b>Relevant Coursework:</b> <span style="font-size:80%;">Data Structures (Python), Computer Science (C/C++, Java), Discrete Mathematics, Calculus, Statistics</span>
   </span>
 </p>
     <div class="experience"><button class="btn" onclick="readMore('AS')" id="ASbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
   </li>
-  <li><strong>University of Illinois at Urbana-Champaign</strong>
-    <ul>
-      <li>M.S. Analytics Statistics</li>
-      <li>2021 - 2023</li>
-    </ul>
-  </li>
-  <li><strong>University of Illinois at Urbana-Champaign</strong>
-    <ul>
-      <li>B.S. Statistics, Minor in Mathematics</li>
-      <li>2018 - 2021</li>
-    </ul>
-  </li>
-  <li><strong>Parkland College</strong>
-    <ul>
-      <li>A.S. Computer Science</li>
-      <li>2015 - 2018</li>
-    </ul>
-  </li>
 </ul>
 
-<h2 id="work-experience">Work Experience</h2>
+<h1 id="work-experience">Work Experience</h1>
 
-<h3 id="graduate-teaching-assistant">Graduate Teaching Assistant</h3>
+<h2 id="graduate-teaching-assistant">Graduate Teaching Assistant</h2>
 <p>Department of Statistics, University of Illinois at Urbana-Champaign
 <br />Starting Aug 2021</p>
 
-<h3 id="data-science-lead-instructor">Data Science Lead Instructor</h3>
+<h2 id="data-science-lead-instructor">Data Science Lead Instructor</h2>
 <p>Discovery Partners Institute, University of Illinois at Chicago
 <br />Starting Jun 2021</p>
 <ul>
   <li><a href="https://dpi.uillinois.edu/events/chance-info/" target="_blank">DPI &amp; UIC-CHANCE Summer Digital Scholars program</a></li>
 </ul>
 
-<h3 id="course-assistant--grading-assistant">Course Assistant / Grading Assistant</h3>
+<h2 id="course-assistant">Course Assistant</h2>
 <p>Department of Statistics, University of Illinois at Urbana-Champaign
 <br />Jan 2019 – Present</p>
 <ul>
   <li>Supported student learning objectives through personalized and small group assistance in in-person and virtual office hours, and via email for courses of 50 to 1000+ students</li>
   <li>Assisted instructor with test administration, curriculum development, website development, assignment/project/exam grading (~8500 assignments/projects/exams graded), office hours, coding tasks, and substitute teaching for lectures</li>
   <li>Conducted a lecture to a class of 150 undergraduate students on random variables and mathematical expectation for STAT 400 on February 4, 2020.</li>
-  <li>
-    <p>Average course sizes: ~285 students per section. ~615 students per course.</p>
-  </li>
+  <li>Average course sizes: ~285 students per section. ~615 students per course.</li>
+</ul>
+
+<p><strong>Courses:</strong></p>
+<ul>
   <li><strong>Stat 100: Introduction to Statistics</strong>
     <ul>
       <li>
@@ -165,7 +149,7 @@
 
 <p><em>Additional experience can be found on my LinkedIn page.</em></p>
 
-<h2 id="contact-information">Contact Information</h2>
+<h1 id="contact-information">Contact Information</h1>
 
 <p>You may contact me via <a href="https://www.linkedin.com/in/wjonasreger" target="_blank">LinkedIn</a>, or via <a href="mailto:wreger2@illinois.edu">email</a>.</p>
 :ET
