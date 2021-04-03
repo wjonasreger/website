@@ -124,6 +124,14 @@ Department of Statistics, University of Illinois at Urbana-Champaign
 
 _Additional experience can be found on my LinkedIn page._
 
+# Projects & Publications
+
+* <a href="https://h550e6-wjonasreger.shinyapps.io/rrvisapp/" target="_blank">Visual Statistics Shiny App</a> (Feb 2021)
+
+* <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">UIUC STAT 100 Course Website</a> (Jan 2020 – Current)
+
+* <a href="{{ site.baseurl }}/assets/docs/publications/ACS Internship Article (2020 reformat).pdf" target="\_blank">Reger, W. & Kilian K. (2013). Using peptide surfaces to study the reprogramming of malignant melanoma cells towards identification of a cancer stem cell state. American Cancer Society Summer High School Research Program, 251-263</a>
+
 # Contact Information
 
 You may contact me via <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a>, or via <a href="mailto:wreger2@illinois.edu">email</a>.
