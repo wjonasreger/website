@@ -11,10 +11,10 @@ header:
   caption: "Photo credit: [**Teemu Paananen on Unsplash**](https://unsplash.com/photos/OOE4xAnBhKo)"
 ---
 
-## Education
+# Education
 
-### University of Illinois at Urbana-Champaign
-  * <p style="margin-top:-10px;">
+## University of Illinois at Urbana-Champaign
+  * <p style="margin-top: 0px;">
       Master of Science – MS, Statistics – Analytics
       <br>2021–2023
       <span id="MSbr"></span>
@@ -25,8 +25,8 @@ header:
     {: style="text-align: justify;"}
     <!-- <div class="experience"><button class="btn" onclick="readMore('MS')" id="MSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div> -->
 
-### University of Illinois at Urbana-Champaign
-  * <p style="margin-top:-10px;">
+## University of Illinois at Urbana-Champaign
+  * <p style="margin-top: 0px;">
       Bachelor of Science – BS, Statistics, Minor in Mathematics
       <br>2018–2021
       <span id="BSbr"></span>
@@ -37,8 +37,8 @@ header:
     {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('BS')" id="BSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
-### Parkland College
-  * <p style="margin-top:-10px;">
+## Parkland College
+  * <p style="margin-top: 0px;">
       Associate of Science – AS, Computer Science
       <br>2015-2018
       <span id="ASbr"></span>
@@ -49,18 +49,18 @@ header:
     {: style="text-align: justify;"}
     <div class="experience"><button class="btn" onclick="readMore('AS')" id="ASbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
-## Work Experience
+# Work Experience
 
-### Graduate Teaching Assistant
+## Graduate Teaching Assistant
 Department of Statistics, University of Illinois at Urbana-Champaign
 <br>Starting Aug 2021
 
-### Data Science Lead Instructor
+## Data Science Lead Instructor
 Discovery Partners Institute, University of Illinois at Chicago
 <br>Starting Jun 2021
 - <a href="https://dpi.uillinois.edu/events/chance-info/" target="_blank">DPI & UIC-CHANCE Summer Digital Scholars program</a>
 
-### Course Assistant / Grading Assistant
+## Course Assistant
 Department of Statistics, University of Illinois at Urbana-Champaign
 <br>Jan 2019 – Present
 - Supported student learning objectives through personalized and small group assistance in in-person and virtual office hours, and via email for courses of 50 to 1000+ students
@@ -70,7 +70,7 @@ Department of Statistics, University of Illinois at Urbana-Champaign
 
 **Courses:**
 * **Stat 100: Introduction to Statistics**
-  * <p style="margin-top:-10px;">
+  * <p style="margin-top: 0px;">
       <a href="https://karleflanagan.github.io/stat100S21/" target = "_blank">[Spring 2021]</a>, <a href="https://karleflanagan.github.io/stat100F20/" target="_blank">[Fall 2020]</a>, <a href="https://nkha149.github.io/stat100-su2020/" target="_blank">[Summer 2020]</a>, <a href="https://karleflanagan.github.io/stat100S20/" target="_blank">[Spring 2020]</a>, [Fall 2019], [Spring 2019] 
       <span id="S100br"></span>
       <span id="S100text">
@@ -82,7 +82,7 @@ Department of Statistics, University of Illinois at Urbana-Champaign
     <div class="experience"><button class="btn" onclick="readMore('S100')" id="S100btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 400: Statistics & Probability I**
-  * <p style="margin-top:-10px;">
+  * <p style="margin-top: 0px;">
       [Spring 2020], [Spring 2019]
       <span id="S400br"></span>
       <span id="S400text">
@@ -94,7 +94,7 @@ Department of Statistics, University of Illinois at Urbana-Champaign
     <div class="experience"><button class="btn" onclick="readMore('S400')" id="S400btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 410: Statistics & Probability II**
-  * <p style="margin-top:-10px;">
+  * <p style="margin-top: 0px;">
       [Spring 2020]
       <span id="S410br"></span>
       <span id="S410text">
@@ -106,7 +106,7 @@ Department of Statistics, University of Illinois at Urbana-Champaign
     <div class="experience"><button class="btn" onclick="readMore('S410')" id="S410btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 420: Methods of Applied Statistics**
-  * <p style="margin-top:-10px;">
+  * <p style="margin-top: 0px;">
       [Fall 2019], [Summer 2019]
       <span id="S420br"></span>
       <span id="S420text">
@@ -118,7 +118,7 @@ Department of Statistics, University of Illinois at Urbana-Champaign
     <div class="experience"><button class="btn" onclick="readMore('S420')" id="S420btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
 * **Stat 432: Basics of Statistical Learning**
-  * <p style="margin-top:-10px;">
+  * <p style="margin-top: 0px;">
       <a href="https://fall-2020.stat432.org/" target="_blank">[Fall 2020]</a>
       <span id="S432br"></span>
       <span id="S432text">
@@ -131,6 +131,6 @@ Department of Statistics, University of Illinois at Urbana-Champaign
 
 _Additional experience can be found on my LinkedIn page._
 
-## Contact Information
+# Contact Information
 
 You may contact me via <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a>, or via <a href="mailto:wreger2@illinois.edu">email</a>.
