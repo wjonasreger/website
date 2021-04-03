@@ -130,7 +130,7 @@ _Additional experience can be found on my LinkedIn page._
 
 * <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">UIUC STAT 100 Course Website</a> (Jan 2020 – Current)
 
-* <a href="{{ site.baseurl }}/assets/docs/publications/ACS Internship Article (2020 reformat).pdf" target="\_blank">Reger, W. & Kilian K. (2013). Using peptide surfaces to study the reprogramming of malignant melanoma cells towards identification of a cancer stem cell state. American Cancer Society Summer High School Research Program, 251-263</a>
+* Reger, W. & Kilian K. (2013). <a href="{{ site.baseurl }}/assets/docs/publications/ACS Internship Article (2020 reformat).pdf" target="\_blank">Using peptide surfaces to study the reprogramming of malignant melanoma cells towards identification of a cancer stem cell state.</a> _American Cancer Society Summer High School Research Program_, 251-263
 
 # Contact Information
 
