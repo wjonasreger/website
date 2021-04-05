@@ -2,7 +2,7 @@
 title: Experience
 layout: single
 permalink: /about/
-classes: wide
+
 
 toc: true
 toc_label: "Table of Contents"
