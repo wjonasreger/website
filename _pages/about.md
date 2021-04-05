@@ -7,6 +7,7 @@ permalink: /about/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky: true
 
 header:
   overlay_image: /assets/images/unsplash/teemu-paananen-OOE4xAnBhKo-unsplash.jpg
@@ -17,7 +18,7 @@ header:
 
 # Education
 
-## University of Illinois at Urbana-Champaign
+**University of Illinois at Urbana-Champaign**<br>
   * <p>
       Master of Science – MS, Statistics – Analytics
       <br>2021–2023
@@ -29,7 +30,7 @@ header:
     {: style="text-align: justify;"}
     <!-- <div class="experience"><button class="btn" onclick="readMore('MS')" id="MSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div> -->
 
-## University of Illinois at Urbana-Champaign
+**University of Illinois at Urbana-Champaign**<br>
   * <p>
       Bachelor of Science – BS, Statistics, Minor in Mathematics
       <br>2018–2021
@@ -40,7 +41,7 @@ header:
     </p>
     <div class="experience"><button class="btn" onclick="readMore('BS')" id="BSbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
-## Parkland College
+**Parkland College**<br>
   * <p>
       Associate of Science – AS, Computer Science
       <br>2015-2018
@@ -53,16 +54,16 @@ header:
 
 # Work Experience
 
-## Graduate Teaching Assistant
+**Graduate Teaching Assistant**<br>
 Department of Statistics, University of Illinois at Urbana-Champaign
 <br>Starting Aug 2021
 
-## Data Science Lead Instructor
+**Data Science Lead Instructor**<br>
 Discovery Partners Institute, University of Illinois at Chicago
 <br>Starting Jun 2021
 - <a href="https://dpi.uillinois.edu/events/chance-info/" target="_blank">DPI & UIC-CHANCE Summer Digital Scholars program</a>
 
-## Course Assistant
+**Course Assistant**<br>
 Department of Statistics, University of Illinois at Urbana-Champaign
 <br>Jan 2019 – Present
 - Supported student learning objectives through personalized and small group assistance in in-person and virtual office hours, and via email for courses of 50 to 1000+ students
