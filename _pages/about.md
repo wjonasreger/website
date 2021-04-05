@@ -4,6 +4,10 @@ layout: single
 permalink: /about/
 classes: wide
 
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+
 header:
   overlay_image: /assets/images/unsplash/teemu-paananen-OOE4xAnBhKo-unsplash.jpg
   <!-- og_image: /assets/images/page-header-og-image.png -->

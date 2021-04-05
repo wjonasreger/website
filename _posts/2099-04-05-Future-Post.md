@@ -1,13 +1,13 @@
 ---
-title:  "Student's Randomly Guessing on a Multiple Choice Exam"
+title:  "Future Post"
 classes: wide
 header:
-  teaser: /assets/images/mathstat-posts/TFRandomGuessingTeaser.png
+  teaser: /assets/images/unsplash/vengadesh-sago-QR1O0HRaax4-unsplash.jpg
 categories:
 tags:
   - stat
   - visualization
-
+published: false
 ---
 
 **How Well Does Randomly Guessing Work?**<br>
