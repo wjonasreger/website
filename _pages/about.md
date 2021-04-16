@@ -55,17 +55,17 @@ header:
 # Work Experience
 
 **Graduate Teaching Assistant**<br>
-Department of Statistics, University of Illinois at Urbana-Champaign
-<br>Starting Aug 2021
+_Department of Statistics, University of Illinois at Urbana-Champaign_
+<br>_Starting Aug 2021_
 
 **Data Science Lead Instructor**<br>
-Discovery Partners Institute, University of Illinois at Chicago
-<br>Starting Jun 2021
+_Discovery Partners Institute, University of Illinois at Chicago_
+<br>_Starting Jun 2021_
 - <a href="https://dpi.uillinois.edu/events/chance-info/" target="_blank">DPI & UIC-CHANCE Summer Digital Scholars program</a>
 
 **Course Assistant**<br>
-Department of Statistics, University of Illinois at Urbana-Champaign
-<br>Jan 2019 – Present
+_Department of Statistics, University of Illinois at Urbana-Champaign_
+<br>_Jan 2019 – Present_
 - Supported student learning objectives through personalized and small group assistance in in-person and virtual office hours, and via email for courses of 50 to 1000+ students
 - Assisted instructor with test administration, curriculum development, website development (Jekyll, Jupyter Notebook), grading (~8500 assignments/projects/exams graded), office hours, coding tasks (R/Rstudio, LaTex, Python), and substitute teaching for lectures
 - Conducted a lecture to a class of 150 undergraduate students on random variables and mathematical expectation for STAT 400 on February 4, 2020.
@@ -127,16 +127,22 @@ Department of Statistics, University of Illinois at Urbana-Champaign
     </p>
     <div class="experience"><button class="btn" onclick="readMore('S432')" id="S432btn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
 
-_Additional experience can be found on my LinkedIn page._
+_Additional experience can be found on my <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a> page._
 
 # Projects & Publications
 
-* <a href="https://h550e6-wjonasreger.shinyapps.io/rrvisapp/" target="_blank">Visual Statistics Shiny App</a> (Feb 2021)
+* <a href="https://h550e6-wjonasreger.shinyapps.io/rrvisapp/" target="_blank">Visual Statistics Shiny App</a> _(Feb 2021 – Current)_
 
-* <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">UIUC STAT 100 Course Website</a> (Jan 2020 – Current)
+* <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">UIUC STAT 100 Course Website</a> _(Jan 2020 – Current)_
+
+* <a href="{{ site.baseurl }}/assets/docs/publications/walmart_425_outline.pdf" target="_blank">STAT 425 Walmart Sales During Stormy Weather Data Analysis</a>
 
 * Reger, W. & Kilian K. (2013). <a href="{{ site.baseurl }}/assets/docs/publications/ACS Internship Article (2020 reformat).pdf" target="\_blank">Using peptide surfaces to study the reprogramming of malignant melanoma cells towards identification of a cancer stem cell state.</a> _American Cancer Society Summer High School Research Program_, 251-263
 
-# Contact Information
+# Awards & Accomplishments
 
-You may contact me via <a href='https://www.linkedin.com/in/wjonasreger' target="_blank">LinkedIn</a>, or via <a href="mailto:wreger2@illinois.edu">email</a>.
+* <a href="https://las.illinois.edu/covid19/award" target="_blank">LAS Impact Award</a>, LAS College, University of Illinois at Urbana-Champaign (April 2021)
+    * Recognized for inspiring efforts during COVID-19
+* Eagle Scout Award, Boy Scouts of America (Feb 2014)
+* Second Degree Black Belt, American Taekwondo Association (July 2012)
+* First Degree Black Belt, American Taekwondo Association (June 2011)
