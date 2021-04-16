@@ -132,16 +132,13 @@ _Additional experience can be found on my <a href='https://www.linkedin.com/in/w
 # Projects & Publications
 
 * <a href="https://h550e6-wjonasreger.shinyapps.io/rrvisapp/" target="_blank">Visual Statistics Shiny App</a> _(Feb 2021 – Current)_
-
 * <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">UIUC STAT 100 Course Website</a> _(Jan 2020 – Current)_
-
-* <a href="{{ site.baseurl }}/assets/docs/publications/walmart_425_outline.pdf" target="_blank">STAT 425 Walmart Sales During Stormy Weather Data Analysis</a>
-
+* <a href="{{ site.baseurl }}/assets/docs/publications/walmart_425_outline.pdf" target="_blank">STAT 425 Walmart Sales During Stormy Weather Data Analysis</a> (Fall 2019)
 * Reger, W. & Kilian K. (2013). <a href="{{ site.baseurl }}/assets/docs/publications/ACS Internship Article (2020 reformat).pdf" target="\_blank">Using peptide surfaces to study the reprogramming of malignant melanoma cells towards identification of a cancer stem cell state.</a> _American Cancer Society Summer High School Research Program_, 251-263
 
 # Awards & Accomplishments
 
-* <a href="https://las.illinois.edu/covid19/award" target="_blank">LAS Impact Award</a>, LAS College, University of Illinois at Urbana-Champaign (April 2021)
+* <a href="https://las.illinois.edu/covid19/award" target="_blank">LAS Impact Award</a> (STAT 100 Course Assistant Team), LAS College, University of Illinois at Urbana-Champaign (April 2021)
     * Recognized for inspiring efforts during COVID-19
 * Eagle Scout Award, Boy Scouts of America (Feb 2014)
 * Second Degree Black Belt, American Taekwondo Association (July 2012)
