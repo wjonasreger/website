@@ -60,10 +60,10 @@ _Department of Statistics, University of Illinois at Urbana-Champaign_
 
 **Data Science Lead Instructor**<br>
 _Discovery Partners Institute, University of Illinois at Chicago_
-<br>_Starting Jun 2021_
-- <a href="https://dpi.uillinois.edu/events/chance-info/" target="_blank">DPI & UIC-CHANCE Summer Digital Scholars program</a>
+<br>_May 2021 – Present_
+- <a href="https://wjonasreger.github.io/DigitalScholars_DataScience/" target="_blank">DPI & UIC-CHANCE Summer Digital Scholars Data Science Course</a>
 
-**Course Assistant**<br>
+**Undergraduate Teaching Assistant**<br>
 _Department of Statistics, University of Illinois at Urbana-Champaign_
 <br>_Jan 2019 – Present_
 - Supported student learning objectives through personalized and small group assistance in in-person and virtual office hours, and via email for courses of 50 to 1000+ students
@@ -72,6 +72,17 @@ _Department of Statistics, University of Illinois at Urbana-Champaign_
 - Average course sizes: ~285 students per section. ~615 students per course.
 
 **Courses:**
+* **The David H. Blackwell Summer Scholars Program**
+  * <p>
+      [Summer 2021]
+      <span id="BSSPbr"></span>
+      <span id="BSSPtext">
+        <br><b>Program Description:</b> <span style="font-size:80%;">The David H. Blackwell Summer Scholars Program is designed to increase the access and equity in the pipeline for graduate degrees in statistics, data science, and mathematics. The David H. Blackwell Summer Scholars Program will offer research experiences during the summer to 8-12 students. Students from historically marginalized minority populations in the United States, which includes African Americans, Hispanic/Latinos, American Indian/Alaska Natives, are especially encouraged to apply. The goal of the project is advance the scholars’ knowledge of statistics and mathematics to prepare them for success in statistics or mathematics graduate programs. The Department of Statistics and the Department of Mathematics at the University of Illinois are well poised and dedicated to fulfill programmatic efforts that are exemplary of Professor Blackwell’s name.</span>
+        <br><b>Supervisors:</b> <span style="font-size:80%;">Jeff Douglas & James Balamuta</span>
+      </span>
+    </p>
+    <div class="experience"><button class="btn" onclick="readMore('BSSP')" id="BSSPbtn">Read more <i class="fas fa-chevron-circle-down fa-2x"></i></button></div>
+
 * **Stat 100: Introduction to Statistics**
   * <p>
       <a href="https://karleflanagan.github.io/stat100S21/" target = "_blank">[Spring 2021]</a>, <a href="https://karleflanagan.github.io/stat100F20/" target="_blank">[Fall 2020]</a>, <a href="https://nkha149.github.io/stat100-su2020/" target="_blank">[Summer 2020]</a>, <a href="https://karleflanagan.github.io/stat100S20/" target="_blank">[Spring 2020]</a>, [Fall 2019], [Spring 2019] 
@@ -131,6 +142,9 @@ _Additional experience can be found on my <a href='https://www.linkedin.com/in/w
 
 # Projects & Publications
 
+* <a href="https://wjonasreger.github.io/DigitalScholars_DataScience/" target="_blank">DPI Digital Scholars Data Science Course Website</a> _(May 2021 – Current)_
+* <a href="https://github.com/wjonasreger/STAT430_FinalProject" target="_blank">STAT 430 Movies on Netflix, Prime Video, Hulu and Disney+ Cluster Data Analysis</a> _(Jan 2021 – May 2021)_
+* <a href="https://github.com/wjonasreger/STAT443_FinalProject" target="_blank">STAT 443 Gas Turbine Carbon Monoxide Emissions Data Analysis</a> _(Jan 2021 – May 2021)_
 * <a href="https://h550e6-wjonasreger.shinyapps.io/rrvisapp/" target="_blank">Visual Statistics Shiny App</a> _(Feb 2021 – Current)_
 * <a href="https://karleflanagan.github.io/stat100S21/" target="_blank">UIUC STAT 100 Course Website</a> _(Jan 2020 – Current)_
 * <a href="{{ site.baseurl }}/assets/docs/publications/walmart_425_outline.pdf" target="_blank">STAT 425 Walmart Sales During Stormy Weather Data Analysis</a> (Fall 2019)
