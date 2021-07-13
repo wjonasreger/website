@@ -12,7 +12,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     algolia_html_extractor (2.6.4)
       json (~> 2.0)
@@ -97,7 +97,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.10.1)
-    public_suffix (4.0.4)
+    public_suffix (4.0.6)
     racc (1.5.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
@@ -116,7 +116,6 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
     verbal_expressions (0.1.5)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -125,7 +124,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll-algolia (~> 1.0)
   minimal-mistakes-jekyll!
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.2.17
